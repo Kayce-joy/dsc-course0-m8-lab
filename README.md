@@ -56,7 +56,7 @@ Source: https://www.kaggle.com/datasets/mos3santos/acidentes-de-aviao-at-2023
 * **Most Durable:** For planes that hold up best during accidents, Luscombe and Grumman-Schweizer models rarely get badly damaged.
 
 ### Large Aircraft Options
-* **Top Passenger Safety:** Mainline Boeing planes—especially the 777 and 757—are highly recommended because they have an amazing track record of keeping passengers safe in emergencies.
+* **Top Passenger Safety:** Mainline Boeing planes, especially the 777 and 757, are highly recommended because they have an amazing track record of keeping passengers safe in emergencies.
 * **Longest Lasting:** Dehavilland aircraft are excellent for airframe longevity and maintaining durability.
 
 ---
