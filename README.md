@@ -32,33 +32,32 @@ Source: https://www.kaggle.com/datasets/mos3santos/acidentes-de-aviao-at-2023
 
 ## Analytical Insights
 
+### 1. Airplane Manufacturer Review (`Make`)
+* **Small Planes:** Cessna and Piper have the most accident records because they are the most common small planes. Cirrus planes show a much higher risk, with injuries occurring in over 43% of their accidents and a high rate of destroyed planes.
+* **Large Planes:** Boeing provides the most reliable data for big planes. They keep passenger injury rates low and rarely suffer total plane destruction.
+* **Safety Trends:** Charts for small manufacturers show that the vast majority of accidents result in zero serious injuries. Commercial flight charts reveal heavy data concentrations that prove high baseline passenger survivability.
 
-### 1. Strategic Manufacturer Evaluation (`Make`)
-* **General Aviation Class:** `Cessna` (7,029 accidents) and `Piper` (3,938 accidents) dictate the data baseline for small planes due to high volume. Conversely, `Cirrus` models exhibit an elevated risk footprint, with average injury rates exceeding 43% and a 27.6% destruction rate.
-* **Commercial Fleet Class:** `Boeing` provides the most dense and dependable dataset for large planes (553 records), maintaining low average passenger injury fractions (~11.8%) and sub-10% hull destruction rates. 
-* **Distribution Profiles:** Violin distributions for small-scale manufacturers show a very wide, bulged base centered exactly at 0.0 (no serious injuries), with needle-thin lines running to 1.0. Commercial scatter plots reveal heavy data concentrations directly on the 0.0 line, proving high baseline passenger survivability.
+### 2. Specific Airplane Models  (`Plane_Type`)
+* **Small Models:** The Cessna 172SP and Maule M-5-210C both achieved a perfect 0% average injury rate during the recorded time frame.
+* **Large Models:** The Boeing 777 and Boeing 757 lead the industry in safety, with average passenger injury rates close to zero
 
-### 2. Individual Airframe Analysis (`Plane_Type`)
-* **Small Airframes:** The `Cessna 172SP` (12 accidents) and `Maule M-5-210C` (11 accidents) delivered a flawless **0.00% average injury rate** in this dataset window.
-* **Large Airframes:** Mainline commercial jets lead the industry, with the `Boeing 777` (19 accidents) and `Boeing 757` (16 accidents) showing near-zero average occupant injury fractions (~0.14% and ~0.16%).
-
-### 3. Engine Count Imbalance (`Number.of.Engines`)
-* **Volume Disconnect:** Records with `Number.of.Engines` at `1.0` (13,138 cases) and `2.0` (1,940 cases) make up 99.7% of the dataset, forming our only statistically sound samples.
-* **The Twin-Engine Paradox:** Aircraft with `2.0` engines display higher average injury rates (~32%) and higher `Aircraft_Destroyed` averages (~17%) within accident logs than single-engine configurations (~25% injury, ~7% destruction). Because twin powerplants provide operational redundancy to avoid simple landing incidents, an entry in this dataset usually indicates a far more complex or high-speed operational crisis.
-* **Statistical Gaps:** Counts for `0.0`, `3.0`, and `4.0` engines combine for only 47 total records. Their extreme spikes or drops are artifacts of low data volume rather than accurate indicators of risk.
+### 3. Engine Count Imbalance (Number.of.Engines)
+* **Volume Disconnect:** Records for 1.0 and 2.0 engines make up 99.7% of the dataset, forming our only statistically sound samples.
+* **The Twin-Engine Paradox:** Aircraft with 2.0 engines display higher average injury and destruction rates in these logs than single-engine configurations. Because twin engines provide a backup to avoid simple landing incidents, an entry in this dataset usually indicates a far more severe or high-speed operational crisis.
+* **Statistical Gaps:** Counts for 0.0, 3.0, and 4.0 engines combine for very few total records. Their extreme spikes or drops are artifacts of low data volume rather than accurate indicators of risk.
 
 ---
 
 ##  Recommendations
 
 ### Small Aircraft Options
-* **Primary Recommendation:** Fleet selection should favor `Maule` models (such as the `Maule M-5-210C`) due to low historical injury metrics (~16%).
-* **High-Volume Deployment:** The `Cessna 172SP` serves as the optimal standard for flight instruction or high-utilization utility tasks due to its proven zero-injury baseline.
-* **Hull Protection:** For assets prioritizing physical durability, `Luscombe` and `Grumman-Schweizer` keep hull destruction rates below 2%.
+* **Best All-Around:** Choose Maule models (like the M-5-210C) for their strong safety record and low injury rates in past incidents.
+* **Best for Training:** The Cessna 172SP is the top pick for flight instruction or high-utilization utility tasks. It is well-known for its excellent safety and injury-free record.
+* **Most Durable:** For planes that hold up best during accidents, Luscombe and Grumman-Schweizer models rarely get badly damaged.
 
 ### Large Aircraft Options
-* **Primary Recommendation:** Mainline `Boeing` aircraft—specifically the `Boeing 777` and `Boeing 757` variants—are heavily recommended due to their unmatched track record of keeping occupant injury rates close to zero during recorded incidents.
-* **Structural Alternative:** `Dehavilland` configurations are outstanding options for airframe longevity, maintaining a remarkably low 2.4% destruction rate.
+* **Top Passenger Safety:** Mainline Boeing planes—especially the 777 and 757—are highly recommended because they have an amazing track record of keeping passengers safe in emergencies.
+* **Longest Lasting:** Dehavilland aircraft are excellent for airframe longevity and maintaining durability.
 
 ---
 
